@@ -1,1 +1,230 @@
+/* ===== RESET ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:#0b1118;
+
+    color:#F2F4F8;
+
+}
+
+/* ===== NAVBAR ===== */
+
+header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    background:rgba(10,15,22,.55);
+
+    backdrop-filter:blur(14px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.navbar{
+
+    max-width:1400px;
+
+    margin:auto;
+
+    height:78px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 40px;
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:800;
+
+    color:#ffffff;
+
+    letter-spacing:2px;
+
+}
+
+.navbar ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:36px;
+
+}
+
+.navbar a{
+
+    color:#c8d0da;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.navbar a:hover{
+
+    color:#1a9fff;
+
+}
+
+/* ===== BUTTONS ===== */
+
+.steamButton,
+.mainButton{
+
+    display:inline-block;
+
+    background:#1a9fff;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 32px;
+
+    border-radius:10px;
+
+    font-weight:700;
+
+    transition:.25s;
+
+}
+
+.steamButton:hover,
+.mainButton:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 30px rgba(26,159,255,.35);
+
+}
+
+/* ===== HERO ===== */
+
+.hero{
+
+    height:100vh;
+
+    background-image:
+
+    linear-gradient(rgba(0,0,0,.55),
+                    rgba(0,0,0,.75)),
+
+    url("images/hero.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.overlay{
+
+    width:min(900px,90%);
+
+}
+
+.overlay h1{
+
+    font-size:84px;
+
+    font-weight:800;
+
+    margin-bottom:20px;
+
+    text-shadow:0 4px 30px rgba(0,0,0,.45);
+
+}
+
+.overlay p{
+
+    font-size:28px;
+
+    color:#c7d1dc;
+
+    margin-bottom:45px;
+
+}
+
+/* ===== SECTIONS ===== */
+
+section{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    padding:120px 40px;
+
+}
+
+section h2{
+
+    font-size:46px;
+
+    margin-bottom:35px;
+
+}
+
+section p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#b8c3ce;
+
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding:50px;
+
+    text-align:center;
+
+    color:#8d99a8;
+
+}
