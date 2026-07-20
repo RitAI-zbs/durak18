@@ -641,3 +641,59 @@ drop-shadow(0 10px 40px rgba(0,0,0,.5));
     text-align:right;
 
 }
+
+/* ============================= */
+/* ADDITIONAL INFO */
+/* ============================= */
+
+.requirements-note{
+
+    margin-top:45px;
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+    padding:25px 30px;
+
+    border-radius:18px;
+
+    background:rgba(199,162,74,.08);
+
+    border:1px solid rgba(199,162,74,.25);
+
+}
+
+.note-icon{
+
+    font-size:34px;
+
+    line-height:1;
+
+    flex-shrink:0;
+
+}
+
+.requirements-note h4{
+
+    margin:0 0 10px;
+
+    color:#C7A24A;
+
+    font-size:20px;
+
+    font-weight:700;
+
+}
+
+.requirements-note p{
+
+    margin:0;
+
+    color:#D5DCE5;
+
+    line-height:1.8;
+
+}
