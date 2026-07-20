@@ -148,12 +148,17 @@ box-shadow:
 
     min-height:100vh;
 
-    background-image:
-        linear-gradient(
-            rgba(5,8,12,.45),
-            rgba(5,8,12,.78)
-        ),
-        url("images/Library_Hero_3000x1240_empty.jpg");
+background-image:
+
+linear-gradient(
+
+rgba(5,8,12,.35),
+
+rgba(5,8,12,.82)
+
+),
+
+url("images/Library_Hero_3000x1240_empty.jpg");
 
     background-position:center center;
     background-size:cover;
