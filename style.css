@@ -115,14 +115,13 @@ text-decoration:none;
 
 border-radius:12px;
 
-<!-- background:linear-gradient(
-45deg,
-#1A9FFF,
-#33B5FF
-); -->
+/* background:linear-gradient( */
+/* 45deg, */
+/* #1A9FFF, */
+/* #33B5FF */
+/* ); */
 
 background:#1b2838;
-
 border:1px solid #C7A24A;
 
 color:white;
