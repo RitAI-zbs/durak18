@@ -103,38 +103,42 @@ header{
 .steamButton,
 .mainButton{
 
-    display:inline-block;
+display:inline-block;
 
-    padding:18px 44px;
+padding:18px 46px;
 
-    border-radius:14px;
+font-size:21px;
 
-    background:#1A9FFF;
+font-weight:700;
 
-    font-size:22px;
+text-decoration:none;
 
-    font-weight:700;
+border-radius:12px;
 
-    color:white;
+background:linear-gradient(
+45deg,
+#1A9FFF,
+#33B5FF
+);
 
-    text-decoration:none;
+color:white;
 
-    transition:.25s;
+transition:.3s;
 
-    box-shadow:
+box-shadow:
 
-        0 10px 40px rgba(26,159,255,.35);
+0 15px 45px rgba(26,159,255,.30);
 
 }
 
 .steamButton:hover,
 .mainButton:hover{
 
-    transform:translateY(-4px);
+transform:translateY(-4px);
 
-    box-shadow:
+box-shadow:
 
-        0 18px 60px rgba(26,159,255,.55);
+0 25px 60px rgba(26,159,255,.45);
 
 }
 
