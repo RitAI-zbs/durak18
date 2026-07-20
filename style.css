@@ -545,3 +545,99 @@ filter:
 drop-shadow(0 10px 40px rgba(0,0,0,.5));
 
 }
+
+/* ============================= */
+/* SYSTEM REQUIREMENTS */
+/* ============================= */
+
+.requirements-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+    gap:40px;
+
+}
+
+.requirement-card{
+
+    background:#151D2A;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    transition:.3s;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+.requirement-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#1A9FFF;
+
+    box-shadow:0 20px 55px rgba(26,159,255,.18);
+
+}
+
+.requirement-card.recommended{
+
+    border-color:#C7A24A;
+
+}
+
+.requirement-card h3{
+
+    font-size:30px;
+
+    margin-bottom:25px;
+
+    color:#ffffff;
+
+}
+
+.requirement-card ul{
+
+    list-style:none;
+
+}
+
+.requirement-card li{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:20px;
+
+    padding:14px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+}
+
+.requirement-card li:last-child{
+
+    border-bottom:none;
+
+}
+
+.requirement-card strong{
+
+    color:#C7A24A;
+
+    min-width:110px;
+
+}
+
+.requirement-card span{
+
+    color:#d2dae3;
+
+    text-align:right;
+
+}
