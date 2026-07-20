@@ -153,13 +153,13 @@ box-shadow:
 
 background-image:
 
-linear-gradient(
+/* linear-gradient( */
 
-rgba(5,8,12,.35),
+/* rgba(5,8,12,.35), */
 
-rgba(5,8,12,.82)
+/* rgba(5,8,12,.82) */
 
-),
+/* ), */
 
 url("images/Library_Hero_3000x1240_empty.jpg");
 
