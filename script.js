@@ -55,3 +55,23 @@ hero.style.backgroundPosition=
  calc(50% + ${y}px)`;
 
 });
+
+const tabs = document.querySelectorAll(".platform-tab");
+const contents = document.querySelectorAll(".requirements-content");
+
+tabs.forEach(tab => {
+
+    tab.addEventListener("click", () => {
+
+        tabs.forEach(t => t.classList.remove("active"));
+        contents.forEach(c => c.classList.remove("active"));
+
+        tab.classList.add("active");
+
+        document
+            .getElementById(tab.dataset.platform)
+            .classList.add("active");
+
+    });
+
+});
