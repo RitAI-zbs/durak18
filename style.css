@@ -697,3 +697,68 @@ drop-shadow(0 10px 40px rgba(0,0,0,.5));
     line-height:1.8;
 
 }
+
+.platform-tabs{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-bottom:40px;
+}
+
+.platform-tab{
+
+    background:#222;
+    color:#bbb;
+
+    border:1px solid #444;
+
+    padding:12px 28px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.platform-tab:hover{
+
+    color:white;
+    border-color:#888;
+
+}
+
+.platform-tab.active{
+
+    background:#d9a441;
+    color:#111;
+    border-color:#d9a441;
+}
+
+.requirements-content{
+
+    display:none;
+
+    animation:fadeIn .3s ease;
+
+}
+
+.requirements-content.active{
+
+    display:block;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
